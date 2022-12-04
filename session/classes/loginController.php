@@ -1,4 +1,7 @@
 <?php 
+    /**
+     * classe permettant de vérifier les entrées de l'utilisateur sur la page login.
+     */
      class LoginController{
         private $username;
         private $password;

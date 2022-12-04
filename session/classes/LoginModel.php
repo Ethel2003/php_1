@@ -1,5 +1,9 @@
 <?php 
      require "../classes/connexion.php";
+
+     /**
+      * classe permet de vérifier si les entrées par l'utilisateur sont conformes à ceux de la base de données.
+      */
     class LoginModel extends Connexion {
         private $username;
         private $password;
